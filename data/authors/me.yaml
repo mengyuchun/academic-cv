@@ -2,115 +2,101 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  display: Meng Yuchun (孟雨春)
+  given: Yuchun
+  family: Meng
+  alternate: 孟雨春
+role: MA Candidate in Publishing at Nanjing University
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  Meng Yuchun is an MA candidate in Publishing at Nanjing University. His main research interests include digital publishing and computational communication, book history and digital humanities, AI and copyright governance, and multimodal computational communication.
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: Nanjing University
+    url: https://www.nju.edu.cn/en/
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:mengyuchun@smail.nju.edu.cn
+    label: Academic email
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://github.com/mengyuchun
+    label: GitHub
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - Digital Publishing and Computational Communication
+  - Book History and Digital Humanities
+  - AI and Copyright Governance
+  - Multimodal Computational Communication
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MA in Publishing
+    institution: Nanjing University
+    start: 2024-09-01
+    end: 2027-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      Expected June 2027. GPA 4.04/5.00; Second-Class Academic Scholarship.
+  - degree: Exchange Student
+    institution: Shih Hsin University (Taiwan)
+    start: 2025-09-05
+    end: 2026-01-05
+    summary: Coursework in Western book history, intellectual property law, cultural studies, and gender and consumer culture.
+  - degree: BA in Editing and Publishing
+    institution: Beijing Institute of Graphic Communication
+    start: 2020-09-01
+    end: 2024-06-30
+    summary: |
+      GPA 3.92/5.00, ranked 2/36. Undergraduate thesis: “Editorial Production and Reader Reception of Children's World Magazine in 1922.”
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+  - role: Research Intern, Product and Research Department
+    org: Beijing OpenBook Co., Ltd.
+    start: 2026-03-02
+    summary: Supported an automated publishing-industry monitoring product, wrote a short-drama research report based on about 40,000 short-drama records, and built a scheduled monitoring-scraping-push pipeline for WeChat public accounts.
+  - role: Editorial Intern
+    org: Yilin Press
+    start: 2025-07-01
+    end: 2025-08-31
+    summary: Edited a full-length literary manuscript and assisted with journal copyediting, contract renewal, and ISBN/publication filing.
+  - role: Editorial Administration Intern
+    org: Anhui Children's Publishing House
+    start: 2025-01-01
+    end: 2025-04-30
+    summary: Registered and verified records for more than 200 new titles and assisted with CIP data, archival files, contracts, and ISBN applications.
+  - role: Copyediting Intern
+    org: Broadview, Publishing House of Electronics Industry
+    start: 2024-01-01
+    end: 2024-06-30
+    summary: Copyedited and proofread nearly one million Chinese characters across computer-science titles and maintained digital course resources.
+  - role: Copyright Comparison Volunteer
+    org: Anti-Plagiarism Foundation
+    start: 2022-01-01
+    summary: Ongoing since 2022. Conducted close textual comparison and prepared copyright-infringement analysis reports for literary and screen works.
 skills:
-  - name: Technical Skills
+  - name: Research Methods
     items:
-      - label: Python
+      - label: Content Analysis and Interview Research
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: BERTopic and Sentence-BERT
         level: 4
-  - name: Research & Communication
+      - label: Survey Design and Statistical Analysis
+        level: 4
+  - name: Technical and Editorial
     items:
-      - label: Academic Writing
+      - label: Python and Data Collection
+        level: 4
+      - label: Editing, Copyediting, and Proofreading
         level: 5
-      - label: Conference Presentations
+      - label: InDesign and Digital Publishing
         level: 4
-      - label: Grant Proposals
-        level: 4
-
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
-
+    label: CET-6; academic reading proficiency
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Second-Class Academic Scholarship
+    awarder: Nanjing University
+    date: "2025-12-01"
+    icon: hero/trophy
+  - title: National Encouragement Scholarship
+    awarder: Beijing Municipal Education Commission
+    date: "2023-12-01"
+    summary: Awarded in three consecutive years, 2021–2023.
     icon: hero/trophy

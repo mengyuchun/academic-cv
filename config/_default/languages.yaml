@@ -1,22 +1,31 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
+  label: English
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  label: 中文
+  locale: zh-Hans
+  contentDir: content/zh
+  title: 孟雨春
+  weight: 2
+  params:
+    description: 南京大学出版专业硕士研究生，研究书籍史、数字出版、人工智能治理与计算研究方法。
+  menu:
+    main:
+      - name: 首页
+        pageRef: /
+        weight: 10
+      - name: 研究项目
+        pageRef: /projects
+        weight: 20
+      - name: 学术成果
+        pageRef: /publications
+        weight: 30
+      - name: 教育与经历
+        pageRef: /experience
+        weight: 40

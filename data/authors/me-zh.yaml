@@ -1,0 +1,102 @@
+schema: hugoblox/author/v1
+slug: me-zh
+is_owner: false
+name:
+  display: 孟雨春 (Meng Yuchun)
+  given: 雨春
+  family: 孟
+  alternate: Meng Yuchun
+role: 南京大学出版专业硕士研究生
+bio: |
+  孟雨春，南京大学出版专业硕士研究生。主要研究兴趣包括数字出版与计算传播，书籍史与数字人文，以及人工智能与版权治理，多模态计算传播等。
+affiliations:
+  - name: 南京大学
+    url: https://www.nju.edu.cn/
+links:
+  - icon: at-symbol
+    url: mailto:mengyuchun@smail.nju.edu.cn
+    label: 学术邮箱
+  - icon: brands/github
+    url: https://github.com/mengyuchun
+    label: GitHub
+interests:
+  - 数字出版与计算传播
+  - 书籍史与数字人文
+  - 人工智能与版权治理
+  - 多模态计算传播
+education:
+  - degree: 出版专业硕士
+    institution: 南京大学
+    start: 2024-09-01
+    end: 2027-06-30
+    summary: |
+      预计 2027 年 6 月毕业。GPA 4.04/5.00，获校学业二等奖学金。
+  - degree: 交换生
+    institution: 台湾世新大学
+    start: 2025-09-05
+    end: 2026-01-05
+    summary: 修读西方书籍史、智慧财产权法、文化研究、性别与消费文化等课程。
+  - degree: 文学学士（编辑出版学专业）
+    institution: 北京印刷学院
+    start: 2020-09-01
+    end: 2024-06-30
+    summary: |
+      GPA 3.92/5.00，专业排名 2/36。本科毕业论文：《1922年〈儿童世界〉杂志的编辑生产与读者接受研究》。
+experience:
+  - role: 产品与研究部研究实习生
+    org: 北京开卷信息技术有限公司
+    start: 2026-03-02
+    summary: 协助开发出版行业自动化监测产品，并基于约 4 万条微短剧数据撰写微短剧研究报告，搭建微信公众号定时监测-爬取-推送通路。
+  - role: 文字编辑实习生
+    org: 译林出版社
+    start: 2025-07-01
+    end: 2025-08-31
+    summary: 全文编辑加工长篇文学书稿，参与期刊初审校对、合同续签和书号报批。
+  - role: 编务实习生
+    org: 安徽少年儿童出版社
+    start: 2025-01-01
+    end: 2025-04-30
+    summary: 完成 200 余种新书信息登记与核对，协助处理 CIP 数据、图书档案、合同归档与书号报批。
+  - role: 文字编辑实习生
+    org: 博文视点（电子工业出版社）
+    start: 2024-01-01
+    end: 2024-06-30
+    summary: 参与计算机图书编辑校对，累计处理近 100 万字文稿，并维护数字课程资源。
+  - role: 版权比对志愿者
+    org: 反剽窃基金会
+    start: 2022-01-01
+    summary: 2022 年至今持续参与。开展文学及影视作品的文本比对，撰写著作权侵权分析报告。
+skills:
+  - name: 研究方法
+    items:
+      - label: 内容分析与访谈研究
+        level: 5
+      - label: BERTopic 与 Sentence-BERT
+        level: 4
+      - label: 问卷设计与统计分析
+        level: 4
+  - name: 技术与出版
+    items:
+      - label: Python 与数据采集
+        level: 4
+      - label: 编辑、校对与审读
+        level: 5
+      - label: InDesign 与数字出版
+        level: 4
+languages:
+  - name: 中文
+    level: 5
+    label: 母语
+  - name: 英语
+    level: 4
+    label: CET-6，具备学术阅读能力
+awards:
+  - title: 学业二等奖学金
+    awarder: 南京大学
+    date: "2025-12-01"
+    icon: hero/trophy
+  - title: 国家励志奖学金
+    awarder: 北京市教育委员会
+    date: "2023-12-01"
+    summary: 2021—2023 年连续三年获奖。
+    icon: hero/trophy
